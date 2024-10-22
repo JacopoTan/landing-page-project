@@ -181,3 +181,11 @@
 .sign-up-footer {
     border: 2px solid white;
 }
+
+.copyright {
+    background-color: #1f2937;
+    color: white;
+    font-family: 'RobotoThin', sans-serif;
+    padding: 25px 50px;
+    text-align: center;
+}
