@@ -34,6 +34,10 @@
     font-size: 16px;
 }
 
+.links {
+    cursor: pointer;
+}
+
 .logo {
     font-family: 'RobotoBold', sans-serif;
     font-weight: 700;
@@ -74,14 +78,19 @@
     opacity: 80%;
 }
 
-.sign-up {
-    padding: 8px 16px;
+.sign-up,
+.sign-up-footer {
+    padding: 8px 30px;
     border-radius: 8px;
     margin-top: 8px;
     cursor: pointer;
     background-color: #3882f6;
     color: white;
     font-weight: 700;
+}
+
+.sign-up {
+    border: 2px solid #1f2937;
 }
 
 .second-part {
@@ -148,4 +157,27 @@
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     text-align: end;
+}
+
+.footer {
+    padding: 70px 200px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-between;
+    padding: 40px 90px;
+    flex-wrap: wrap;
+}
+
+.footer-headline {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sign-up-footer {
+    border: 2px solid white;
 }
